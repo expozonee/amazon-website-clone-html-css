@@ -7,11 +7,6 @@ h1 {
   font-weight: 400;
 }
 
-button {
-  all: unset;
-  cursor: pointer;
-}
-
 a {
   color: #007185;
   text-decoration: none;
@@ -219,10 +214,12 @@ main {
 }
 
 .variants button {
+  background-color: white;
   width: 101px;
   height: 46px;
   border: 1px solid #d4d4d4;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .variant {
