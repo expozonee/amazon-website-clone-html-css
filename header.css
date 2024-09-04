@@ -10,6 +10,8 @@
 
 :root {
   --nav-color: #131921;
+  --nav-secondary-color: #232f3e;
+  --primary-color: #f0c14b;
 }
 
 body {
@@ -105,4 +107,27 @@ body {
 
 .cart i {
   width: 100%;
+}
+
+.categories {
+  gap: 1.4rem;
+  padding: 1rem;
+  background-color: var(--nav-secondary-color);
+}
+
+.categories nav {
+  gap: 1rem;
+}
+
+.categories a {
+  color: #fff;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.categories a:has(i) {
+  gap: 0.2rem;
+}
+.categories a:has(i) p {
+  font-weight: 700;
 }
