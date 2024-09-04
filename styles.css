@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-color: #131921;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* header */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  background-color: var(--nav-color);
+  color: #fff;
+  padding: 1rem;
+}
+
+.header-location {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100px;
+  font-size: 0.9rem;
+}
+
+.header-location span {
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.search-bar {
+  width: 100%;
+}
+
+.search-bar form {
+  display: flex;
+  width: 100%;
+}
+
+.search-bar select {
+  background-color: #d4d4d4;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding: 0.5rem;
+  outline: none;
+  height: 40px;
+  width: 55px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+.search-bar button {
+  background-color: #f0c14b;
+  border: none;
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.country {
+  gap: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.account {
+  gap: 0.2rem;
+  width: 500px;
+}
+
+.account {
+  font-size: 0.85rem;
+}
+
+.account span {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.cart {
+  gap: 0.2rem;
+  height: 100%;
+}
+
+.cart i {
+  width: 100%;
+}
