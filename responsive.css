@@ -2,6 +2,7 @@
   main {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
+      "br br "
       "image desc"
       "cta cta";
     width: 90%;
@@ -30,6 +31,7 @@
   main {
     grid-template-columns: 1fr;
     grid-template-areas:
+      "br br br "
       "image image image"
       "desc desc desc"
       "cta cta cta";
@@ -46,7 +48,7 @@
 
 @media (max-width: 1000px) {
   .image {
-    grid-template-areas: "br br br" "main main main" "other other other";
+    grid-template-areas: "main main main" "other other other";
   }
 
   .other-images {
