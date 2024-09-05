@@ -229,3 +229,40 @@ main {
 .variant.active {
   border: 2px solid #007185;
 }
+
+.product-summary {
+  gap: 0.5rem;
+  row-gap: 1rem;
+  padding-top: 1rem;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0.875rem;
+}
+
+.product-summary p[key] {
+  font-weight: 700;
+}
+
+.product-summary span {
+  display: block;
+}
+
+.about-item h3 {
+  padding-block: 0.5rem;
+}
+
+.about-item ul {
+  gap: 0.5rem;
+}
+
+.note {
+  margin-top: 1rem;
+}
+
+.note section:first-child {
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.note section:first-child p {
+  color: #007185;
+}
