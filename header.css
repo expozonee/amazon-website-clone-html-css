@@ -30,6 +30,25 @@ body {
   padding: 1rem;
 }
 
+.mobile-header {
+  display: none;
+}
+
+.logo {
+  width: 100px;
+  height: 40px;
+  object-fit: contain;
+  cursor: pointer;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 1px;
+  border: 1px solid transparent;
+}
+
+.logo:hover {
+  border: 1px solid #fff;
+}
+
 .header-location {
   display: flex;
   align-items: center;
@@ -108,6 +127,7 @@ body {
 
 .cart i {
   width: 100%;
+  font-size: 1.5rem;
 }
 
 .categories {
@@ -118,6 +138,7 @@ body {
 
 .categories nav {
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .categories a {

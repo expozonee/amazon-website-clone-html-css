@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="cta.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <script
       src="https://kit.fontawesome.com/485b22e736.js"
       crossorigin="anonymous"
@@ -16,11 +17,16 @@
   <body>
     <header>
       <section class="main-header">
-        <img
-          src="https://pngimg.com/d/amazon_PNG11.png"
-          alt="logo"
-          width="97"
-        />
+        <a class="logo" href="#">
+          <img
+            src="https://pngimg.com/d/amazon_PNG11.png"
+            alt="logo"
+            width="97"
+          />
+        </a>
+        <section class="mobile-menu">
+          <i class="fa-solid fa-bars"></i>
+        </section>
         <section class="header-location shrink-0">
           <i class="fa-solid fa-location-dot"></i>
           <p>Deliver to<br /><span>Israel</span></p>
@@ -111,22 +117,37 @@
         </section>
         <section class="other-images grid">
           <img
-            src="https://m.media-amazon.com/images/I/71Swqqe7XAL._AC_SL1500_.jpg"
+            src="https://m.media-amazon.com/images/I/71O2w5u9ECL._AC_SL1500_.jpg"
             alt="product"
             class="other-image"
           />
           <img
-            src="https://m.media-amazon.com/images/I/71Swqqe7XAL._AC_SL1500_.jpg"
+            src="https://m.media-amazon.com/images/I/81qdKAs5e4L._AC_SL1500_.jpg"
             alt="product"
             class="other-image"
           />
           <img
-            src="https://m.media-amazon.com/images/I/71Swqqe7XAL._AC_SL1500_.jpg"
+            src="https://m.media-amazon.com/images/I/81QExzAsGnL._AC_SL1500_.jpg"
             alt="product"
             class="other-image"
           />
           <img
-            src="https://m.media-amazon.com/images/I/71Swqqe7XAL._AC_SL1500_.jpg"
+            src="https://m.media-amazon.com/images/I/71MfA4NM-fL._AC_SL1500_.jpg"
+            alt="product"
+            class="other-image"
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/71dNX9OwWvL._AC_SL1500_.jpg"
+            alt="product"
+            class="other-image"
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/81vFlV8Rk7L._AC_SL1500_.jpg"
+            alt="product"
+            class="other-image"
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/81h5Aasgm9L._AC_SL1500_.jpg"
             alt="product"
             class="other-image"
           />
@@ -136,6 +157,12 @@
             src="https://m.media-amazon.com/images/I/81QExzAsGnL._AC_SL1500_.jpg"
             alt="product"
           />
+          <section class="zoomed-image">
+            <img
+              src="https://m.media-amazon.com/images/I/81QExzAsGnL._AC_SL1500_.jpg"
+              alt="product"
+            />
+          </section>
         </section>
       </section>
       <section class="info grid">
@@ -285,7 +312,7 @@
           </section>
         </section>
       </section>
-      <section>
+      <section class="cta-section">
         <section class="cta">
           <p class="price"><sup>$</sup>18<sup>99</sup></p>
           <section class="returns flex">
