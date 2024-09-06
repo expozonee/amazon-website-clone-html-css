@@ -82,6 +82,10 @@ main {
   border-radius: 10px;
 }
 
+.other-images .active {
+  border: 2px solid #007185;
+}
+
 .breadcrumb {
   grid-area: br;
 }

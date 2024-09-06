@@ -10,6 +10,11 @@ otherImages.forEach((image) => {
   image.addEventListener("click", () => {
     mainImage.src = image.src;
     zoomedImage.src = image.src;
+
+    otherImages.forEach((i) => {
+      i.classList.remove("active");
+    });
+    image.classList.toggle("active");
   });
 });
 
