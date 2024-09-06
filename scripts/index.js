@@ -29,17 +29,13 @@ mainImage.addEventListener("click", () => {
   window.addEventListener("click", function (event) {
     if (event.target === modal) {
       modal.style.display = "none";
-      if (document.body.contains(modalClone)) {
-        document.body.removeChild(modalClone);
-      }
+      modal.remove();
     }
   });
 
   const modalCloseButton = document.querySelector(".close");
   modalCloseButton.addEventListener("click", () => {
     modal.style.display = "none";
-    if (document.body.contains(modalClone)) {
-      document.body.removeChild(modalClone);
-    }
+    modal.remove();
   });
 });
