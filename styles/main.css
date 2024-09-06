@@ -175,6 +175,7 @@ main {
 
 .coupon {
   gap: 0.5rem;
+  align-items: center;
 }
 
 .coupon-badge {
