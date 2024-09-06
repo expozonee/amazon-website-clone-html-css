@@ -8,7 +8,7 @@
 }
 
 .cta *:not(.price) {
-  font-size: 0.97rem;
+  font-size: 0.9rem;
 }
 
 .cta .returns {
@@ -66,7 +66,7 @@
   margin-bottom: 0.6rem;
   border-radius: 100vw;
   border: none;
-  background-color: #f7ca00;
+  background-color: #ffd814;
   font-size: 0.9rem;
   cursor: pointer;
 }

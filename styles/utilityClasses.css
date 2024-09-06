@@ -56,3 +56,23 @@
 .grid {
   display: grid;
 }
+
+/*  */
+
+.border {
+  cursor: pointer;
+  padding: 0.1rem;
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid #ffffff;
+}
+
+.cta .addToCartButton:hover {
+  background-color: #f7ca00;
+}
+
+.cta .main-button:hover {
+  background-color: #fa8900;
+}

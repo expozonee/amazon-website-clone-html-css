@@ -39,3 +39,14 @@ mainImage.addEventListener("click", () => {
     modal.remove();
   });
 });
+
+const variants = document.querySelectorAll(".variant");
+
+variants.forEach((variant) => {
+  variant.addEventListener("click", () => {
+    variants.forEach((v) => {
+      v.classList.remove("active");
+    });
+    variant.classList.add("active");
+  });
+});
