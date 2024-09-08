@@ -10,6 +10,10 @@
   .cta-section {
     grid-column: span 2;
   }
+
+  .main-image:hover .zoomed-image {
+    width: 110%;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -38,6 +42,9 @@
     padding: 2.5rem;
     width: 100%;
     margin: 0 auto;
+  }
+  .main-image:hover .zoomed-image {
+    display: none;
   }
 
   .cta-section {
