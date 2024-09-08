@@ -29,12 +29,11 @@
   }
 
   main {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 35%;
     grid-template-areas:
       "br br br "
       "image image image"
-      "desc desc desc"
-      "cta cta cta";
+      "desc desc cta";
     gap: 1.5rem;
     padding: 2.5rem;
     width: 100%;
@@ -42,7 +41,7 @@
   }
 
   .cta-section {
-    grid-column: span 2;
+    grid-column: auto;
   }
 }
 
@@ -54,5 +53,16 @@
   .other-images {
     grid-column: span 3;
     grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "br"
+      "image"
+      "desc"
+      "cta";
   }
 }
